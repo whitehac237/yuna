@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            html,body
+            {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-size: 16px;
+            
+            }
+            body{
+                display: flex;
+                flex-direction: column;
+                height: 90vh;
+                align-items: center;
+                justify-content: center;
+            }
+            #T
+            {
+                font-size: 5rem;
+                color: blue;
+                display: flex;
+                
+                justify-content: center;
+                margin-bottom: 0.5rem;
+            }
+            #gmail
+            {
+                display: flex;
+                border: 0.2rem solid black;
+                border-radius: 1rem;
+                align-items: center;
+                justify-content: center;
+                width: 70rem;
+                height: 20rem;
+                box-shadow: 1rem;
+
+            }
+
+            li
+            {
+                list-style: none;
+
+            }
+            #GM
+            {
+                margin-right: 1rem;
+                font-size: 5rem;
+            }
+
+            #Gui
+            {
+                position: absolute;
+                margin-top: 10rem;
+                width: 5rem;
+                height: 3rem;
+                border-radius: 0.5rem;
+                box-shadow: 10rem;
+            }
+
+            #NGM
+            {
+                width: 30rem;
+                height: 3rem;
+                font-size: 1rem;
+                border-radius: 0.5rem;
+            }
+
+            @media (max-width: 768px)
+            {
+
+                #T
+            {
+                font-size: 3rem;
+                
+            }
+
+                #gmail
+            {
+               width: 90vw;
+               height: 30vh;
+
+            }
+
+            #GM
+            {
+                margin-right: 1rem;
+                font-size: 2rem;
+            }
+
+            }
+
+            @media (max-width: 480px) {
+                #T
+            {
+                font-size: 2rem;
+                
+            }
+
+            #GM
+            {
+                margin-right: 1rem;
+                font-size: 1.2rem;
+            }
+
+            #NGM
+            {
+                width: 15rem;
+                height: 2rem;
+               
+            }
+
+            
+
+            }
+
+
+        </style>
+    </head>
+    <body>
+       <header>
+        <div class="top">
+            <div id="T">
+            Quên Mật Khẩu
+            </div>
+          
+        </div>
+            <div id="gmail">
+                <li id="GM">
+                    Gmail
+                </li>
+                <input id="NGM" type="text" placeholder="Nhập Gmail Để Nhận Mã">
+                <button id="Gui">
+                    Gửi
+                </button>
+            </div>
+
+       </header>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
